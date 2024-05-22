@@ -7,8 +7,27 @@
 
 
 # checknumber(9)
-def checksum(a,b):
-    sum = a + b
-    print(sum)
+# def checksum(a,b):
+#     sum = a + b
+#     print(sum)
 
-checksum(5,5)
+# checksum(5,5)
+# def addnumbers(a,b):
+#     sum = a + b
+#     print(sum)
+
+# addnumbers(20,20)
+
+def checkage(dateofbirth,currentyear):
+    age = dateofbirth - currentyear
+    print(age)
+
+checkage(2024,1997)
+
+
+
+
+
+
+
+
